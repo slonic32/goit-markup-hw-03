@@ -38,6 +38,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -239,6 +241,10 @@ button {
   justify-content: space-between;
 }
 
+.section-solutions-item {
+  flex-basis: calc((100%-72px) / 4);
+}
+
 .section-wedo {
   padding-bottom: 120px;
 }
@@ -253,6 +259,10 @@ button {
   display: flex;
   gap: 24px;
   justify-content: space-between;
+}
+
+.section-wedo-item {
+  flex-basis: calc((100%-48px) / 3);
 }
 
 .section-team {
@@ -270,23 +280,27 @@ button {
 .section-team-header {
   text-align: center;
   color: var(--color-Navy-blue);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
 .section-team-item {
   background-color: var(--color-WHITE);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .section-team-item-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .section-team-flex {
   display: flex;
   gap: 24px;
   justify-content: space-between;
+}
+
+.section-team-item-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .section-footer {
@@ -307,13 +321,11 @@ button {
 
 .section-portfolio-header {
   color: var(--color-Navy-blue);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
 .section-portfolio-item-text {
   color: var(--color-SLATE);
-  margin-bottom: 32px;
 }
 
 .section-portfolio-filter-flex {
@@ -329,6 +341,17 @@ button {
   column-gap: 24px;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.section-portfolio-item {
+  flex-basis: calc((100%-48px) / 3);
+}
+
+.section-portfolio-item-div {
+  padding: 32px 16px;
+  border-left: 1px solid var(--color-cornflower);
+  border-right: 1px solid var(--color-cornflower);
+  border-bottom: 1px solid var(--color-cornflower);
 }
 
 .flex {
@@ -349,4 +372,8 @@ button {
 .header-link {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.header-border {
+  border-bottom: 1px solid var(--color-cornflower);
 }
