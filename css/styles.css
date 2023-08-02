@@ -36,6 +36,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -138,6 +142,7 @@ button {
 
 .logo-studio {
   color: var(--color-Navy-blue);
+  margin-right: 76px;
 }
 
 .logo-studio-footer {
@@ -236,4 +241,24 @@ button {
 
 .section-portfolio-item-text {
   color: var(--color-SLATE);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header-list-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.header-menu {
+  margin-right: 332px;
+}
+
+.header-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
