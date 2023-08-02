@@ -197,6 +197,11 @@ button {
 .button-filter {
   color: var(--color-Iris);
   background-color: var(--color-CLOUD);
+  display: block;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
 }
 
 .button-filter:hover,
@@ -295,12 +300,35 @@ button {
   margin-top: 16px;
 }
 
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .section-portfolio-header {
   color: var(--color-Navy-blue);
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .section-portfolio-item-text {
   color: var(--color-SLATE);
+  margin-bottom: 32px;
+}
+
+.section-portfolio-filter-flex {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.section-portfolio-table-flex {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flex {
