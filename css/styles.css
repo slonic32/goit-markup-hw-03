@@ -182,8 +182,14 @@ button {
 }
 
 .button-oder {
+  display: block;
+  width: 169px;
+  height: 56px;
   color: var(--color-WHITE);
   background-color: var(--color-Iris);
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-oder:hover,
@@ -204,11 +210,15 @@ button {
 
 .section-hero {
   background-color: var(--color-Navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-hero-header {
   color: var(--color-WHITE);
   text-align: center;
+  width: 496px;
+  margin: auto;
 }
 
 .section-solutions-header {
