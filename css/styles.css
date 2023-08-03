@@ -143,19 +143,18 @@ button {
   margin-right: 76px;
 }
 
+.logo-footer {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 16px;
+}
+
 .logo-studio {
   color: var(--color-Navy-blue);
 }
 
 .logo-studio-footer {
   color: var(--color-CLOUD);
-}
-
-.logo-footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .header-navigation-link {
@@ -317,6 +316,7 @@ button {
 
 .section-footer-text {
   color: var(--color-CLOUD);
+  max-width: 264px;
 }
 
 .section-portfolio {
@@ -359,19 +359,29 @@ button {
   border-bottom: 1px solid var(--color-cornflower);
 }
 
-.flex {
+.header-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header-list-flex {
+.header-navigation-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.header-menu-flex {
   display: flex;
   gap: 40px;
   justify-content: space-between;
 }
 
-.header-menu {
-  margin-right: 332px;
+.header-address-flex {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
 }
 
 .header-link {
@@ -381,4 +391,6 @@ button {
 
 .header-border {
   border-bottom: 1px solid var(--color-cornflower);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
